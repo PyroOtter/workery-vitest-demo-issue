@@ -1,4 +1,4 @@
-**Workery Cloudflare Vitest Demo Error**
+**Workery Vitest Demo Error**
 
 ```
 TypeError: Cannot use require() to import an ES Module.
