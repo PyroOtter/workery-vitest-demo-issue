@@ -2,8 +2,8 @@ import app from './../src/index';
 import {describe, expect, test} from "vitest";
 import { SELF, env } from 'cloudflare:test';
 
-describe("/", () => {
-	test("/", async () => {
+describe("Tests", () => {
+	test("/ - Hello World Response", async () => {
 		const response = await app.handle({
 			req: new Request("http://a.b/", {
 				method: "GET",
